@@ -1,10 +1,15 @@
+#use python for all coding interviews!!
+#ask questions!
+#think about edge cases
+#keep talking, don't start coding immediately
+
 import unittest
 
 def question1(a,b):
     if len(a)!=len(b):
         return False
 
-    sorta= sorted(a)
+    sorta= sorted(a) #sorting makes the time nlogn, not linear time
     sortb= sorted(b)
 
     for i in range(0,len(sorta)):
